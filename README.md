@@ -14,3 +14,9 @@ Activation de l'environnement
  source myvenv/bin/activate
 '''
 
+Installation des librairies requises (definies dans requirements.txt) 
+'''bash
+ pip3 install -r requirements.txt 
+'''
+
+
