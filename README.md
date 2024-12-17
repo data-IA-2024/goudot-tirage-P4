@@ -8,7 +8,7 @@ Environnement virtuel
 ```bash
  python3 -m venv myvenv
 ```
-Activation Env virtuel
+Activation Env virtuel (linux)
 ```bash
  source myvenv/bin/activate
 ```
@@ -19,7 +19,16 @@ Installation des librairies dans requirements:
 
 # Execution du programme
 ```bash
- source myvenv/bin/activate
+ source myvenv/bin/activate # linux
  python3 test1.py
 ```
+# Utilisation de dotenv
 
+1) créer un fichier `.env` qui contiens
+```text
+DATAFILE=chemin d'accès vers le CSV
+```
+2) Installer [python-dotenv](https://pypi.org/project/python-dotenv/)
+   inclure "python-dotenv" dans requirements.txt
+3) installer (pip install...)
+4) Utiliser load_dotenv() et os.getenv()
