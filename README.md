@@ -2,3 +2,5 @@
 
 tirage au sort des P4
 Utilisation du CSV crée sur le drive
+
+Test du fichier readme Maximilien Proust
