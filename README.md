@@ -2,3 +2,7 @@
 
 tirage au sort des P4
 Utilisation du CSV crée sur le drive
+
+Contributeurs :
+-Emmanuel Goudot
+-Fabien Herry
