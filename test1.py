@@ -9,7 +9,11 @@ load_dotenv()
 file = os.getenv('DATAFILE')
 df = pd.read_csv(file)
 
-nb_groupes = len(df) // NB_PERSONNES_PAR_GROUPES
+if len(df) % NB_PERSONNES_PAR_GROUPES != 0:
+    print("Le nombre de personnes doit être divisible par le nombre de groupes")
+    exit(1)
+
+nb_groupes = int(len(df) / NB_PERSONNES_PAR_GROUPES)
 df["groupe"] = None
 
 for i in range(nb_groupes):
