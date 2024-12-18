@@ -20,7 +20,7 @@ Installation des librairies dans requirements:
 # Execution du programme
 ```bash
  source myvenv/bin/activate # linux
- python3 prog.py
+ python3 prog.py 3
 ```
 # Utilisation de dotenv
 
